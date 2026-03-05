@@ -18,22 +18,24 @@ body {
     /* responsive top spacing */
 }
 
-@media (max-width: 768px) {
-  .text-box {
-    top: 65%;   /* move it lower */
-    transform: translate(-50%, -50%);
-  }
-}
+
 
 /* Main content box */
 
 .text-box {
-  position: absolute;
-  bottom: 15%;
-  left: 50%;
-  transform: translateX(-50%);
-}
+    position: absolute;
+    bottom: 12%;
+    left: 50%;
+    transform: translateX(-50%);
 
+    background: rgba(255, 255, 255, 0.92); /* white box */
+    padding: 25px 30px;
+    border-radius: 18px;
+    width: 85%;
+    max-width: 500px;
+
+    box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+}
 
 /* Winner Styles */
 
@@ -61,4 +63,5 @@ p {
     font-size: clamp(16px, 4vw, 20px);
 
 }
+
 
