@@ -14,6 +14,7 @@ body {
     justify-content: center;
     align-items: flex-end;   /* pushes box lower */
     padding-bottom: 12vh;    /* spacing from bottom */
+    background: lime !important;
 }
 
 .text-box {
@@ -38,3 +39,4 @@ h1 {
 p {
     font-size: clamp(16px, 4vw, 20px);
 }
+
