@@ -1,60 +1,42 @@
-/* Reset default spacing */
 body {
-  margin: 0;
-  height: 100vh;
-  background-image: url("imgg.JPG");
-  background-size: cover;
-  background-position: top center;
-  background-repeat: no-repeat;
-  font-family: Arial, sans-serif;
-}
+    margin: 0;
+    font-family: Arial, sans-serif;
+    text-align: center;
 
-
-@media (max-width: 768px) {
-  .text-box {
-    bottom: 10%;
-    width: 90%;
-  }
-     body {
+    background-image: url("imgg.JPG");
+    background-size: cover;
     background-position: top center;
-  }
-}
+    background-repeat: no-repeat;
 
-/* Main content box */
+    min-height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;   /* pushes box lower */
+    padding-bottom: 12vh;    /* spacing from bottom */
+    
+}
 
 .text-box {
-  position: absolute;
-  bottom: 15%;
-  left: 50%;
-  transform: translateX(-50%);
+    background: rgba(255, 255, 255, 0.92);
+    padding: 25px 30px;
+    border-radius: 18px;
+    width: 85%;
+    max-width: 500px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.2);
 }
 
-
-/* Winner Styles */
-
-#Win1 {
-    color: green;
-}
-
-#Win2 {
-    color: red;
-}
-
-#Win3 {
-    color: blue;
-}
-
-
-/* Responsive text */
+/* Winner colors */
+#Win1 { color: green; }
+#Win2 { color: red; }
+#Win3 { color: blue; }
 
 h1 {
     font-size: clamp(24px, 6vw, 40px);
-    margin-bottom: 5%;
+    margin-bottom: 10px;
 }
 
 p {
     font-size: clamp(16px, 4vw, 20px);
-
 }
-
 
