@@ -1,22 +1,14 @@
 /* Reset default spacing */
-
 body {
-    margin: 0;
-    font-family: Arial, sans-serif;
-    text-align: center;
-    background-image: url("imgg.JPG");
-    background-size: contain;
-    background-position: center 15%;
-    background-repeat: no-repeat;
-    min-height: 100vh;
-    display: flex;
-    justify-content: center;
-    /* horizontal center */
-    align-items: flex-start;
-    /* stick to top */
-    padding-top: 8vh;
-    /* responsive top spacing */
+  margin: 0;
+  height: 100vh;
+  background-image: url("img.JPG");
+  background-size: cover;
+  background-position: top center;
+  background-repeat: no-repeat;
+  font-family: Arial, sans-serif;
 }
+
 
 @media (max-width: 768px) {
   .text-box {
@@ -61,4 +53,5 @@ p {
     font-size: clamp(16px, 4vw, 20px);
 
 }
+
 
