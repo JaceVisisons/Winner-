@@ -2,7 +2,7 @@
 body {
   margin: 0;
   height: 100vh;
-  background-image: url("img.JPG");
+  background-image: url("imgg.JPG");
   background-size: cover;
   background-position: top center;
   background-repeat: no-repeat;
@@ -56,3 +56,4 @@ p {
     font-size: clamp(16px, 4vw, 20px);
 
 }
+
