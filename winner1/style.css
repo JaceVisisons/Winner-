@@ -4,7 +4,7 @@ body {
     margin: 0;
     font-family: Arial, sans-serif;
     text-align: center;
-    background-image: url("img.JPG");
+    background-image: url("imgg.JPG");
     background-size: cover;
     background-position: center 15%;
     background-repeat: no-repeat;
@@ -61,3 +61,4 @@ p {
     font-size: clamp(16px, 4vw, 20px);
 
 }
+
