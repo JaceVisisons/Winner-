@@ -12,8 +12,8 @@ body {
 
     display: flex;
     justify-content: center;
-    align-items: flex-end;   /* pushes box lower */
-    padding-bottom: 12vh;    /* spacing from bottom */
+    align-items: flex-start;   /* pushes box lower */
+    padding-top: 8vh;    /* spacing from bottom */
     
 }
 
@@ -39,5 +39,4 @@ h1 {
 p {
     font-size: clamp(16px, 4vw, 20px);
 }
-
 
