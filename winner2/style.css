@@ -20,8 +20,11 @@ body {
 
 @media (max-width: 768px) {
   .text-box {
-    top: 65%;   /* move it lower */
-    transform: translate(-50%, -50%);
+    bottom: 10%;
+    width: 90%;
+  }
+     body {
+    background-position: top center;
   }
 }
 
@@ -61,3 +64,4 @@ p {
     font-size: clamp(16px, 4vw, 20px);
 
 }
+
