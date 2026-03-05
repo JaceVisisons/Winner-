@@ -26,10 +26,20 @@ body {
     box-shadow: 0 10px 30px rgba(0,0,0,0.2);
 }
 
+@keyframes colorChange {
+    0%   { color: red; }
+    25%  { color: orange; }
+    50%  { color: green; }
+    75%  { color: blue; }
+    100% { color: purple; }
+}
+
+
+
 /* Winner colors */
-#Win1 { color: green; }
-#Win2 { color: red; }
-#Win3 { color: blue; }
+#Win1 { animation: colorChange 3s infinite; }
+#Win2 { animation: colorChange 3s infinite; }
+#Win3 { animation: colorChange 3s infinite; }
 
 h1 {
     font-size: clamp(24px, 6vw, 40px);
@@ -39,4 +49,5 @@ h1 {
 p {
     font-size: clamp(16px, 4vw, 20px);
 }
+
 
